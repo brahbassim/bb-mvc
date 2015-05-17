@@ -30,11 +30,8 @@ class HomeController extends Controller
      */
     public function index($name = 'Bassim Brah')
     {
-        $user = $this->model('user');
-        $user->name = $name;
-
-        $this->view('home/index', [
-            'name' => $name
-        ]);
+        $this->view('templates/header');
+        $this->view('home/index',['name' => $name]);
+        $this->view('templates/footer');
     }
 }

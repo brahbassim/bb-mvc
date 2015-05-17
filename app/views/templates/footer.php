@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Brah
- * Date: 17/05/15
- * Time: 02:11
- */
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">BB-MVC.</p>
+    </div>
+</footer>
+</body>
+</html>
