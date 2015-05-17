@@ -1,0 +1,4 @@
+Options -MultiViews
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^$ public [L]

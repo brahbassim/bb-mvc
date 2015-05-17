@@ -1,0 +1,16 @@
+{
+  "require": {
+    "phpmailer/phpmailer": "~5.2"
+  },
+  "autoload": {
+    "classmap": [
+      "app/models",
+      "app/core",
+      "app/libraries"
+    ],
+    "files": [
+      "app/configs/constants.php",
+      "app/configs/app.php"
+    ]
+  }
+}
